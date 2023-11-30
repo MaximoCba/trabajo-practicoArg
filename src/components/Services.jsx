@@ -2,7 +2,7 @@ import { RiMailFill, RiSmartphoneFill, RiMacFill } from "react-icons/ri";
 
 export const Services = () => {
   return (
-    <div className="grid grind-cols-1 md:grid-cols-2 gap-8 md:gap-20 p-8 xl:p-20">
+    <div className="grid grind-cols-1 md:grid-cols-2 gap-8 md:gap-20 p-8 md:p-12 xl:p-20">
       <div className="flex flex-col gap-4">
         <h1 className="text-[40px] font-bold">Cómo te podemos ayudar</h1>
         <p className="text-[20px] text-gray-500">
@@ -36,22 +36,22 @@ export const Services = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2">
+          <RiMacFill className="text-6xl p-2 bg-secondary text-primary rounded-xl" />
+          <h3 className="text-[20px] font-bold">Logo Branding</h3>
+          <p className="text-gray-500">
+            A veces las funciones requieren una breve descripción
+          </p>
+        </div>
+        <div className="flex flex-col gap-2">
           <RiSmartphoneFill className="text-6xl p-2 bg-secondary text-primary rounded-xl" />
-          <h3 className="text-[20px] font-bold">IU/UX Desing</h3>
+          <h3 className="text-[20px] font-bold">App Design</h3>
           <p className="text-gray-500">
             A veces las funciones requieren una breve descripción
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <RiMacFill className="text-6xl p-2 bg-secondary text-primary rounded-xl" />
-          <h3 className="text-[20px] font-bold">IU/UX Desing</h3>
-          <p className="text-gray-500">
-            A veces las funciones requieren una breve descripción
-          </p>
-        </div>
-        <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-6xl p-2 bg-secondary text-primary rounded-xl" />
-          <h3 className="text-[20px] font-bold">IU/UX Desing</h3>
+          <h3 className="text-[20px] font-bold">Website Design</h3>
           <p className="text-gray-500">
             A veces las funciones requieren una breve descripción
           </p>
